@@ -1,2 +1,4 @@
 .DS_Store
 liquibase.properties
+liquibase.sqlcmd.conf
+liquibase.sqlplus.conf

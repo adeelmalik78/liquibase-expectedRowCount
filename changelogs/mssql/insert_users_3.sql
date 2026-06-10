@@ -20,7 +20,7 @@ INSERT INTO users (username, email, status) VALUES ('alice', 'alice@example.com'
 INSERT INTO users (username, email, status) VALUES ('bob', 'bob@example.com', 'active');
 --rollback DELETE from users where username = 'bob'
 
---changeset amalik:insert_charlie expectedRowCount:3
+--changeset amalik:insert_charliejeffdavidtim expectedRowCount:3
 INSERT INTO users (username, email, status) VALUES ('charlie', 'charlie@example.com', 'active');
 INSERT INTO users (username, email, status) VALUES ('jeff', 'jeff@example.com', 'active');
 INSERT INTO users (username, email, status) VALUES ('david', 'davic@example.com', 'active');
